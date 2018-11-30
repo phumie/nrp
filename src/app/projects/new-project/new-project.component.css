@@ -1,0 +1,56 @@
+.list
+{
+    height: calc(100% - 5px);
+    background-color: white;
+    padding: 10px;
+    overflow: auto;
+}
+
+.list h6 {
+    color: #2B2B2B;
+}
+
+.status-bar
+{
+    width: calc(100% - 5px);
+    height: auto;
+    background-color:#cce6ff;
+    margin-bottom: 10px;
+}
+
+.status-bar ul
+{
+    align-items: center;
+}
+
+.status-bar li
+{
+    /* text-align: center; */
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+}
+
+.status-bar li button
+{
+    border: none;
+    background-color: #cce6ff;
+}
+
+.status-bar li img
+{
+    height: 20px;
+    width:20px;
+    float: left;
+}
+
+.status-bar p {
+    color: black;
+    font-size: 0.9em;
+}
+
+/* RFQs */
+
+form button {
+    padding: 15px;
+}
