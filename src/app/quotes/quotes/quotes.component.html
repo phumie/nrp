@@ -1,385 +1,254 @@
 <div class="header">
-  <p style="float:left">NRP PORTAL</p> 
-  <div class="dropdown">
-      <a class="notifs" id="notifications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <img src="assets/notification_off.png"> 
-      </a>
-      <div class="dropdown-menu" aria-labelledby="notifications">
-          <a class="dropdown-item" href="#">no notifications</a>
-      </div>
-  </div>
-  <div class="dropdown">
-      <a class="notifs" id="messages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-right:20px">
-          <img src="assets/msg_on.png"> 
-      </a>
-      <div class="dropdown-menu" aria-labelledby="messages">
-          <a class="dropdown-item" href="#">new message</a>
-          <a class="dropdown-item" href="#">new message</a>
-          <a class="dropdown-item" href="#">new message</a>
-      </div>
-  </div>
+    <p style="float:left">NRP PORTAL</p> 
+    <div class="dropdown">
+        <a class="notifs" id="notifications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="assets/notification_off.png"> 
+        </a>
+        <div class="dropdown-menu" aria-labelledby="notifications">
+            <a class="dropdown-item" href="#">no notifications</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a class="notifs" id="messages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-right:20px">
+            <img src="assets/msg_on.png"> 
+        </a>
+        <div class="dropdown-menu" aria-labelledby="messages">
+            <a class="dropdown-item" href="#">new message</a>
+            <a class="dropdown-item" href="#">new message</a>
+            <a class="dropdown-item" href="#">new message</a>
+        </div>
+    </div>
 </div>
 
 <div class="menu">
-  <a href=""><p align="center">menu</p></a>
+    <a href=""><p align="center">menu</p></a>
 </div>
-
+        
 <div class="wrapper">
-  <nav id="sidebar">
-      <div class="sidebar-header">
-          <img class="profile" src="assets/profile.png" align="center">
-          <p align="center">Phumie Nevhutala</p>
-      </div>
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <img class="profile" src="assets/profile.png" align="center">
+            <p align="center">Phumie Nevhutala</p>
+        </div>
 
-      <ul class="list-unstyled components">
-          <li>
-              <a href="dashboard.html">
-                  <img src="assets/home.png" class="icons">
-                  Home
-              </a>
-          </li>
-          <li>
-              <a href="projects.html">
-                  <img src="assets/project.png" class="icons">
-                  Projects
-              </a>
-          </li>
-          <li>
-              <a href="rfqs.html">
-                  <img src="assets/quote.png" class="icons">
-                  RFQs
-              </a>
-          </li>
-          <li>
-              <a href="quotes.html">
-                  <img src="assets/quote.png" class="icons">
-                  Quotes
-              </a>
-          </li>
-          <li>
-              <a href="reports.html">
-                  <img src="assets/report.png" class="icons">
-                  Reports
-              </a>
-          </li>
-          <li>
-              <a href="finance.html">
-                  <img src="assets/finance.png" class="icons">
-                  Finance
-              </a>
-          </li>
-          <li>
-              <a href="admin.html">
-                  <img src="assets/admin.png" class="icons">
-                  Admin
-              </a>
-          </li>
-          <li>
-              <a href="#"> 
-                  <img src="assets/logout.png" class="icons">
-                  Sign out
-              </a>
-          </li>
-      </ul>
-  </nav>
-
-  <div id="content">
-      <nav class="navbar" style="background-color: #fff;">
-          <div class="container-fluid">
-              <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2" placeholder="search" aria-label="Search" style="border: 1px solid #d9d9d9; background-color:none; width: 170px; border-radius: 10px;">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="border:none;">
-                      <img src="assets/search.png" height="20" width="20" style="opacity:0.5">
-                  </button>
-              </form>
-              <p style="color:#00cc00; margin-top:10px;">QUOTES</p> 
-          </div>
-      </nav>
-
-      <div class="list">
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="home-tab" data-toggle="tab" href="rfqs" role="tab" aria-controls="home" aria-selected="true">Home</a>
+        <ul class="list-unstyled components">
+            <li>
+                <a href="dashboard">
+                    <img src="assets/home.png" class="icons">
+                    Home
+                </a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" id="suppliers-tab" data-toggle="tab" href="rfqs" role="tab" aria-controls="suppliers" aria-selected="false">Generate Supplier Quotes</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link" id="clients-tab" data-toggle="tab" href="rfqs" role="tab" aria-controls="clients" aria-selected="false">Generate Client Quotes</a>
+            <li>
+                <a href="projects">
+                    <img src="assets/project.png" class="icons">
+                    Projects
+                </a>
             </li>
-          </ul>
-          <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                <br>
-                <ul class="nav nav-pills mb-3 nav-fill" role="tablist">
-                    <!-- <li class="nav-item">
-                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Suppliers</a>
-                    </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Clients</a>
-                    </li>
-                </ul>
-                <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <li>
+                <a href="rfqs">
+                    <img src="assets/quote.png" class="icons">
+                    RFQs
+                </a>
+            </li>
+            <li>
+                <a href="quotes">
+                    <img src="assets/quote.png" class="icons">
+                    Quotes
+                </a>
+            </li>
+            <li>
+                <a href="reports">
+                    <img src="assets/report.png" class="icons">
+                    Reports
+                </a>
+            </li>
+            <li>
+                <a href="finance">
+                    <img src="assets/finance.png" class="icons">
+                    Finance
+                </a>
+            </li>
+            <li>
+                <a href="admin">
+                    <img src="assets/admin.png" class="icons">
+                    Admin
+                </a>
+            </li>
+            <li>
+                <a href="#"> 
+                    <img src="assets/logout.png" class="icons">
+                    Sign out
+                </a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div id="content">
+        <nav class="navbar" style="background-color: #fff;">
+            <div class="container-fluid">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" placeholder="search" aria-label="Search" style="border: 1px solid #d9d9d9; background-color:none; width: 170px; border-radius: 10px;">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="border:none;">
+                        <img src="assets/search.png" height="20" width="20" style="opacity:0.5">
+                    </button>
+                </form>
+                <p style="color:#00cc00; margin-top:10px;">QUOTES</p> 
+            </div>
+        </nav>
+
+        
+        <div class="list">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="clients-tab" data-toggle="tab" href="#clients" role="tab" aria-controls="clients" aria-selected="false">Generate Clients Quotes</a>
+                </li>
+            </ul>
+            <br>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <table class="table table-hover" style="margin-top: 10px; width: 100%; overflow: scrollable;">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">ID</th>
+                                <th scope="col">Client Name</th>
+                                <th scope="col">Quote Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>name</td>
+                                <td>date</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>name</td>
+                                <td>date</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>name</td>
+                                <td>date</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="tab-pane fade show" id="clients" role="tabpanel" aria-labelledby="clients-tab">
+                    <h5 align="center">GENERAL</h5>
+                    <form>
+                        <div class="form-group">
+                            <label>Company Name</label>
+                            <!-- <input type="text" class="form-control" placeholder="Name"> -->
+                            <select id="clients" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>name</option>
+                                <option>name</option>
+                                <option>name</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Company Address</label>
+                            <input type="text" class="form-control" placeholder="Apartment, Studio, or Floor">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label>City</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputState">Province</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option value="Gauteng">Gauteng</option>
+                                    <option value="Western Cape">Western Cape</option>
+                                    <option value="KwaZulu-Natal">KwaZulu-Natal</option>
+                                    <option value="Limpopo">Limpopo</option>
+                                    <option value="Mpumalanga">Mpumalanga</option>
+                                    <option value="Eastern Cape">Eastern Cape</option>
+                                    <option value="Free State">Free State</option>
+                                    <option value="North West">North West</option>
+                                    <option value="Northern Cape">Northern Cape</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="inputZip">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Date</label>
+                            <input type="text" class="form-control" placeholder="(dd-mm-yyyy)">
+                        </div>
+
+                        <h5 align="center">CONTACT INFO</h5>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Contact Person</label>
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Contact Tel</label>
+                            <input type="numbers" class="form-control" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Contact Cell</label>
+                            <input type="numbers" class="form-control" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="email" class="form-control" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Equisition No.</label>
+                            <input type="numbers" class="form-control">
+                        </div>
+
+                        <h5 align="center">ITEMS</h5>
+                        <h6 align="center">Click appropriate button to enter items.</h6>
+                        <button type="button" class="btn btn-danger">Description</button>
+                        <button type="button" class="btn btn-danger">Quantity</button>
+                        <button type="button" class="btn btn-danger">Rate</button>
+                        <button type="button" class="btn btn-danger">Total</button>
+
                         <table class="table table-hover" style="margin-top: 10px; width: 100%; overflow: scrollable;">
                             <thead class="thead-dark">
                                 <tr>
-                                    <th scope="col">ID</th>
-                                    <th scope="col">Supplier Name</th>
-                                    <th scope="col">Quote Date</th>
+                                    <th scope="col">Description</th>
+                                    <th scope="col">Qty</th>
+                                    <th scope="col">Rate</th>
+                                    <th scope="col">Total</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th scope="row">1</th>
-                                    <td>name</td>
-                                    <td>date</td>
+                                    <th scope="row">description</th>
+                                    <td>quantity</td>
+                                    <td>rate</td>
+                                    <td>total</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">2</th>
-                                    <td>name</td>
-                                    <td>date</td>
+                                    <th scope="row">description</th>
+                                    <td>quantity</td>
+                                    <td>rate</td>
+                                    <td>total</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">3</th>
-                                    <td>name</td>
-                                    <td>date</td>
+                                    <th scope="row">description</th>
+                                    <td>quantity</td>
+                                    <td>rate</td>
+                                    <td>total</td>
                                 </tr>
                             </tbody>
                         </table>
-                    </div>
-                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                        <table class="table table-hover" style="margin-top: 10px; width: 100%; overflow: scrollable;">
-                            <thead class="thead-dark">
-                                <tr>
-                                    <th scope="col">ID</th>
-                                    <th scope="col">Client Name</th>
-                                    <th scope="col">Quote Date</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td>name</td>
-                                    <td>date</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td>name</td>
-                                    <td>date</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3</th>
-                                    <td>name</td>
-                                    <td>date</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                        <button type="button" class="btn btn-success" style="margin-top:10px"> Generate Quote</button>
+                    </form>
                 </div>
             </div>
-
-            <!-- <div class="tab-pane fade" id="suppliers" role="tabpanel" aria-labelledby="suppliers-tab">
-                <br>
-                <h5 align="center">GENERAL</h5>
-                <form>
-                    <div class="form-group">
-                        <label>Supplier Name</label>
-                        <input type="text" class="form-control" placeholder="Name">
-                    </div>
-
-                    <div class="form-group">
-                        <label>Supplier Address</label>
-                        <input type="text" class="form-control" placeholder="Apartment, Studio, or Floor">
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label>City</label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputState">Province</label>
-                            <select id="inputState" class="form-control">
-                                <option selected>Choose...</option>
-                                <option value="Gauteng">Gauteng</option>
-                                <option value="Western Cape">Western Cape</option>
-                                <option value="KwaZulu-Natal">KwaZulu-Natal</option>
-                                <option value="Limpopo">Limpopo</option>
-                                <option value="Mpumalanga">Mpumalanga</option>
-                                <option value="Eastern Cape">Eastern Cape</option>
-                                <option value="Free State">Free State</option>
-                                <option value="North West">North West</option>
-                                <option value="Northern Cape">Northern Cape</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-2">
-                            <label for="inputZip">Zip</label>
-                            <input type="text" class="form-control" id="inputZip">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label>Date</label>
-                        <input type="text" class="form-control" placeholder="(dd-mm-yyyy)">
-                    </div>
-
-                    <h5 align="center">CONTACT INFO</h5>
-
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Supplier Tel</label>
-                        <input type="numbers" class="form-control" placeholder="">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1"> Supplier Email</label>
-                        <input type="email" class="form-control" placeholder="name@example.com">
-                    </div>
-
-                    <h5 align="center">ITEMS</h5>
-                    <h6 align="center">Click appropriate button to enter items.</h6>
-                    <button type="button" class="btn btn-danger">Description</button>
-                    <button type="button" class="btn btn-danger">Quantity</button>
-                    <button type="button" class="btn btn-danger">Price</button>
-                    <button type="button" class="btn btn-danger">Vat</button>
-
-                    <table class="table table-hover" style="margin-top: 10px; width: 100%; overflow: scrollable;">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th scope="col">Description</th>
-                                <th scope="col">Qty</th>
-                                <th scope="col">Price</th>
-                                <th scope="col">Vat</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">description</th>
-                                <td>quantity</td>
-                                <td>price</td>
-                                <td>vat</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">description</th>
-                                <td>quantity</td>
-                                <td>price</td>
-                                <td>vat</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">description</th>
-                                <td>quantity</td>
-                                <td>price</td>
-                                <td>vat</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <button type="button" class="btn btn-success" style="margin-top:10px"> Generate Quote</button>
-                </form>
-            </div> -->
-
-            <div class="tab-pane fade" id="clients" role="tabpanel" aria-labelledby="clients-tab">
-                <br>
-                <h5 align="center">GENERAL</h5>
-                <form>
-                    <div class="form-group">
-                        <label>Company Name</label>
-                        <input type="text" class="form-control" placeholder="Name">
-                    </div>
-
-                    <div class="form-group">
-                        <label>Company Address</label>
-                        <input type="text" class="form-control" placeholder="Apartment, Studio, or Floor">
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label>City</label>
-                            <input type="text" class="form-control">
-                        </div>
-                        <div class="form-group col-md-4">
-                            <label for="inputState">Province</label>
-                            <select id="inputState" class="form-control">
-                                <option selected>Choose...</option>
-                                <option value="Gauteng">Gauteng</option>
-                                <option value="Western Cape">Western Cape</option>
-                                <option value="KwaZulu-Natal">KwaZulu-Natal</option>
-                                <option value="Limpopo">Limpopo</option>
-                                <option value="Mpumalanga">Mpumalanga</option>
-                                <option value="Eastern Cape">Eastern Cape</option>
-                                <option value="Free State">Free State</option>
-                                <option value="North West">North West</option>
-                                <option value="Northern Cape">Northern Cape</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-2">
-                            <label for="inputZip">Zip</label>
-                            <input type="text" class="form-control" id="inputZip">
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Date</label>
-                        <input type="text" class="form-control" placeholder="(dd-mm-yyyy)">
-                    </div>
-
-                    <h5 align="center">CONTACT INFO</h5>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Contact Person</label>
-                        <input type="text" class="form-control" placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Contact Tel</label>
-                        <input type="numbers" class="form-control" placeholder="">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Contact Cell</label>
-                        <input type="numbers" class="form-control" placeholder="">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Email</label>
-                        <input type="email" class="form-control" placeholder="name@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Equisition No.</label>
-                        <input type="numbers" class="form-control">
-                    </div>
-
-                    <h5 align="center">ITEMS</h5>
-                    <h6 align="center">Click appropriate button to enter items.</h6>
-                    <button type="button" class="btn btn-danger">Description</button>
-                    <button type="button" class="btn btn-danger">Quantity</button>
-                    <button type="button" class="btn btn-danger">Rate</button>
-                    <button type="button" class="btn btn-danger">Total</button>
-
-                    <table class="table table-hover" style="margin-top: 10px; width: 100%; overflow: scrollable;">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th scope="col">Description</th>
-                                <th scope="col">Qty</th>
-                                <th scope="col">Rate</th>
-                                <th scope="col">Total</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">description</th>
-                                <td>quantity</td>
-                                <td>rate</td>
-                                <td>total</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">description</th>
-                                <td>quantity</td>
-                                <td>rate</td>
-                                <td>total</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">description</th>
-                                <td>quantity</td>
-                                <td>rate</td>
-                                <td>total</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <button type="button" class="btn btn-success" style="margin-top:10px"> Generate Quote</button>
-                </form>
-            </div>
-          </div>
+        </div>
     </div>
-  </div>
+</div>
