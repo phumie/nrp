@@ -9,9 +9,11 @@ import { ViewClientComponent } from './view-client/view-client.component';
 import { ViewEmployeeComponent } from './view-employee/view-employee.component';
 import { ManageClientsComponent } from './manage-clients/manage-clients.component';
 import { ManageEmployeesComponent } from './manage-employees/manage-employees.component';
+import { SupplierListComponent } from './supplier-list/supplier-list.component';
+import { ManageSuppliersComponent } from './manage-suppliers/manage-suppliers.component';
 
 @NgModule({
-  declarations: [AdminComponent, ClientListComponent, EmployeeListComponent, ViewClientComponent, ViewEmployeeComponent, ManageClientsComponent, ManageEmployeesComponent],
+  declarations: [AdminComponent, ClientListComponent, EmployeeListComponent, ViewClientComponent, ViewEmployeeComponent, ManageClientsComponent, ManageEmployeesComponent, SupplierListComponent, ManageSuppliersComponent],
   imports: [
     CommonModule,
     AdminRoutingModule

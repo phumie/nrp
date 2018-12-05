@@ -10,7 +10,7 @@ const routes: Routes = [
   // {path: 'project-view', component: ProjectViewComponent},
   // {path: 'new-project', component: NewProjectComponent}
   {
-    path: 'projects',
+    path: '',
     children: [
       {
         path: '',

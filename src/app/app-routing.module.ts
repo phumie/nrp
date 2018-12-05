@@ -11,7 +11,9 @@ const routes: Routes = [
   {path: '', redirectTo: 'login', pathMatch: 'full'},
   {path: 'login', component: LoginComponent},
   {path: 'dashboard', component: DashboardComponent},
-  { path: 'projects', loadChildren: './projects/projects.module#ProjectModule'},
+  { path: 'projects', loadChildren: './projects/projects.module#ProjectsModule'},
+  { path: 'quotes', loadChildren: './quotes/quotes.module#QuotesModule'},
+  {path: 'admin', loadChildren : './admin/admin.module#AdminModule'},
   {path: 'client-dashboard', component: ClientDashboardComponent},
   {path: '**', component: PageNotFoundComponent}
 ];

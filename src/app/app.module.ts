@@ -31,13 +31,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    ProjectsModule,
-    AdminModule,
     RfqsModule,
     FinanceModule,
     ReportsModule,
     AppRoutingModule,
-    QuotesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,132 @@
+<div class="header">
+  <p style="float:left">NRP PORTAL</p> 
+  <div class="dropdown">
+      <a class="notifs" id="notifications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="assets/notification_off.png"> 
+      </a>
+      <div class="dropdown-menu" aria-labelledby="notifications">
+          <a class="dropdown-item" href="#">no notifications</a>
+      </div>
+  </div>
+  <div class="dropdown">
+      <a class="notifs" id="messages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-right:20px">
+          <img src="assets/msg_on.png"> 
+      </a>
+      <div class="dropdown-menu" aria-labelledby="messages">
+          <a class="dropdown-item" href="#">new message</a>
+          <a class="dropdown-item" href="#">new message</a>
+          <a class="dropdown-item" href="#">new message</a>
+      </div>
+  </div>
+</div>
+<div class="menu">
+  <a href=""><p align="center">menu</p></a>
+</div>
+<div class="wrapper">
+  <nav id="sidebar">
+      <div class="sidebar-header">
+          <img class="profile" src="assets/profile.png" align="center">
+          <p align="center">Phumie Nevhutala</p>
+      </div>
+
+      <ul class="list-unstyled components">
+        <li>
+            <a href="dashboard">
+                <img src="assets/home.png" class="icons">
+                Home
+            </a>
+        </li>
+        <li>
+            <a href="/admin/employees">
+                <img src="assets/employees.png" class="icons">
+                Employees
+            </a>
+        </li>
+        <li>
+            <a href="/admin/clients">
+                <img src="assets/client.png" class="icons">
+                Clients
+            </a>
+        </li>
+        <li>
+            <a href="/admin/suppliers">
+                <img src="assets/supplier.png" class="icons">
+                Suppliers
+            </a>
+        </li>
+        <li>
+            <a href="login"> 
+                <img src="assets/logout.png" class="icons">
+                Sign out
+            </a>
+        </li>
+    </ul>
+  </nav>
+
+  <div id="content">
+      <nav class="navbar" style="background-color: #fff;">
+          <div class="container-fluid">
+              <p style="color:#00cc00; margin-top:10px;">ADMIN SUPPLIERS</p> 
+          </div>
+      </nav>
+
+      <div class="list">
+        <form>
+          <h5 align="center">GENERAL INFORMATION</h5><br>
+            <div class="form-group row">
+                <label  class="col-sm-2 col-form-label">Business Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label  class="col-sm-2 col-form-label">Tel Numbber</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label  class="col-sm-2 col-form-label">Physical Address</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="Address">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+            </div>
+            <h5 align="center">ACCOUNT INFORMATION</h5><br>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Bank Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="Bank">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Account Number</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Branch Code</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Reference Number</label>
+                <div class="col-sm-10">
+                    <input type="numer" class="form-control" placeholder="Reference">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </form>           
+      </div>
+  </div>
