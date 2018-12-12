@@ -1,1 +1,78 @@
-<h3>CLIENT DASHBOARD</h3>
+<div class="header">
+  <p style="float:left">NRP CLIENT PORTAL</p> 
+  <div class="dropdown">
+      <a class="notifs" id="notifications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="assets/notification_off.png"> 
+      </a>
+      <div class="dropdown-menu" aria-labelledby="notifications">
+          <a class="dropdown-item" href="#">no notifications</a>
+      </div>
+  </div>
+</div>
+
+<div class="menu">
+  <a href=""><img src="assets/menu.png"></a>
+</div>
+
+<div class="wrapper">
+  <nav id="sidebar">
+      <div class="sidebar-header">
+          <img class="profile" src="assets/profile.png" align="center">
+          <p align="center">Nedbank Three Rivers</p>
+      </div>
+
+      <ul class="list-unstyled components">
+          <li>
+              <a href="client-dashboard">
+                  <img src="assets/home.png" class="icons">
+                  Home
+              </a>
+          </li>
+          <li>
+              <a href="client-projects">
+                  <img src="assets/project.png" class="icons">
+                  Projects
+              </a>
+          </li>
+          <li>
+            <a href="feedback">
+                <img src="assets/feedback.png" class="icons">
+                Feedback
+            </a>
+        </li>
+          <li>
+              <a href="login"> 
+                  <img src="assets/logout.png" class="icons">
+                  Sign out
+              </a>
+          </li>
+      </ul>
+  </nav>
+
+  <div id="content">
+        <h4 align="center" style="padding: 20px">DASHBOARD</h4>
+        <div class="card-columns">
+            <div class="card">
+                <div class="card-body" style="background-color:#ffb142">
+                    <a href="/client-projects" class="card-title" align="center">
+                        <img src="assets/project.png" class="img">
+                    </a>
+                    <a href="/client-projects" align="center">
+                        <h6>PROJECTS</h6>
+                    </a>
+                </div>
+            </div> 
+            
+            <div class="card">
+                <div class="card-body" style="background-color:#227093;">
+                    <a href="/feedback" class="card-title" align="center">
+                        <img src="assets/feedback.png" class="img">
+                    </a>
+                    <a href="/feedback" align="center">
+                        <h6>FEEDBACK</h6>
+                    </a>
+                </div>
+            </div> 
+        </div>              
+  </div>
+</div>

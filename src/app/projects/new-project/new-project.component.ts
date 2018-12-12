@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-new-project',
@@ -10,6 +11,15 @@ export class NewProjectComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $(document).ready(function(){
+      $('#createProject').click(function(){
+        alert("New project created.");
+      });
+
+      $(function() {
+        $('.selectpicker').selectpicker();
+      });
+    });
   }
 
 }

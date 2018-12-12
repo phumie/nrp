@@ -18,13 +18,11 @@ a, a:hover, a:focus {
 }
 
 .navbar {
-    /* padding: 15px 10px; */
     background: #fff;
     border: none;
     border-radius: 0;
     margin-bottom: 15px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-    /* height: 60px; */
     height: auto;
 }
 
@@ -44,14 +42,7 @@ h6 {
     border: none;
 }
 
-.line {
-    width: 100%;
-    height: 1px;
-    border-bottom: 1px dashed #ddd;
-    margin: 40px 0;
-}
-
-/****** MENU ******/
+/* MENU */
 
 .menu {
     height: 40px;
@@ -73,7 +64,7 @@ h6 {
     margin-bottom: 10px;
 }
 
-/******* HEADER *********/
+/* HEADER */
 
 .header {
     width: 100%;
@@ -98,25 +89,22 @@ h6 {
 }
 .profile
 {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     display: block;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 10px;
 }
 
-
-
-/* ---------------------------------------------------
-    SIDEBAR STYLE
------------------------------------------------------ */
+/* SIDEBAR */
 
 .wrapper {
     display: flex;
     width: 100%;
     align-items: stretch;
     perspective: 1500px;
+    background-color: #f2f2f2;
 }
 
 
@@ -139,6 +127,10 @@ h6 {
     background: #161616;
     border-bottom: #595957;
     height: 120px;
+}
+
+#sidebar .sidebar-header p {
+    font-size: 0.95em;
 }
 
 #sidebar ul.components {
@@ -225,11 +217,8 @@ a.article, a.article:hover {
     opacity: 0.5;
 }
 
+/* CONTENT */
 
-
-/* ---------------------------------------------------
-    CONTENT STYLE
------------------------------------------------------ */
 #content {
     width: 100%;
     padding: 10px;
@@ -271,44 +260,7 @@ a.article, a.article:hover {
     margin: 5px auto;
 }
 
-.card p {
-    color: #636363;
-    font-size: 0.95em;
-}
-
-
-/* ---------------------------------------------------
-    MEDIAQUERIES
------------------------------------------------------ */
-@media (max-width: 500px) {
-    #sidebar {
-        margin-left: -200px;
-        transform: rotateY(90deg);
-    }
-    #sidebar.active {
-        margin-left: 0;
-        transform: none;
-    }
-    #sidebarCollapse span:first-of-type,
-    #sidebarCollapse span:nth-of-type(2),
-    #sidebarCollapse span:last-of-type {
-        transform: none;
-        opacity: 1;
-        margin: 5px auto;
-    }
-    #sidebarCollapse.active span {
-        margin: 0 auto;
-    }
-    #sidebarCollapse.active span:first-of-type {
-        transform: rotate(45deg) translate(2px, 2px);
-    }
-    #sidebarCollapse.active span:nth-of-type(2) {
-        opacity: 0;
-    }
-    #sidebarCollapse.active span:last-of-type {
-        transform: rotate(-45deg) translate(1px, -1px);
-    }
-}
+/* MOBILE MENU */
 
 @media screen and (min-width: 380px){
     .menu {

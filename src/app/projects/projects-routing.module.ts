@@ -6,9 +6,6 @@ import { ProjectViewComponent } from './project-view/project-view.component';
 import { NewProjectComponent } from './new-project/new-project.component';
 
 const routes: Routes = [
-  // {path: 'projects', component: ProjectListComponent},
-  // {path: 'project-view', component: ProjectViewComponent},
-  // {path: 'new-project', component: NewProjectComponent}
   {
     path: '',
     children: [

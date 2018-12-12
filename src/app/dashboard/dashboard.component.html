@@ -1,24 +1,24 @@
 <router-outlet></router-outlet>
 <div class="header">
-  <p style="float:left">NRP PORTAL</p> 
-  <div class="dropdown">
-      <a class="notifs" id="notifications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <img src="assets/notification_off.png"> 
-      </a>
-      <div class="dropdown-menu" aria-labelledby="notifications">
-          <a class="dropdown-item" href="#">no notifications</a>
-      </div>
-  </div>
-  <div class="dropdown">
-      <a class="notifs" id="messages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-right:20px">
-          <img src="assets/msg_on.png"> 
-      </a>
-      <div class="dropdown-menu" aria-labelledby="messages">
-          <a class="dropdown-item" href="#">new message</a>
-          <a class="dropdown-item" href="#">new message</a>
-          <a class="dropdown-item" href="#">new message</a>
-      </div>
-  </div>
+    <p style="float:left">NRP PORTAL</p>   
+    <div class="dropdown">
+        <a class="notifs" id="notifications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="assets/notification_off.png"> 
+        </a>
+        <div class="dropdown-menu" aria-labelledby="notifications">
+            <a class="dropdown-item" href="#">no notifications</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a class="notifs" id="messages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-right:20px">
+            <img src="assets/msg_on.png"> 
+        </a>
+        <div class="dropdown-menu" aria-labelledby="messages">
+            <a class="dropdown-item" href="#">new message</a>
+            <a class="dropdown-item" href="#">new message</a>
+            <a class="dropdown-item" href="#">new message</a>
+        </div>
+    </div>
 </div>
 
 <div class="menu">
@@ -53,101 +53,80 @@
           </li>
       </ul>
   </nav>
-
   <div id="content">
-      <nav class="navbar" style="background-color: #fff;">
+      <!-- <nav class="navbar" style="background-color: #fff;">
           <div class="container-fluid">
               <p>HOME</p> 
           </div>
-      </nav>
+      </nav> -->
 
-      <div class="card" style="padding: 20px; border: none; width: calc(100% - 5px);">
-          <h4 align="center" style="padding: 20px">DASHBOARD</h4>
-          <div class="card-columns">
-              <div class="card" style="border: 1px solid #ffb142;">
-                  <div class="card-body" style="background-color:#ffb142">
-                      <a href="/projects" class="card-title" align="center">
-                          <img src="assets/project.png" class="img">
-                      </a>
-                  </div>
-                  <div class="footer">
-                      <a href="/projects" align="center">
-                          <h6>PROJECTS</h6>
-                      </a>
-                  </div>
-              </div> 
-              
-              <div class="card" style="border: 1px solid #227093;">
-                  <div class="card-body" style="background-color:#227093;">
-                      <a href="/finance" class="card-title" align="center">
-                          <img src="assets/finance.png" class="img">
-                      </a>
-                  </div>
-                  <div class="footer">
-                      <a href="/finance" align="center">
-                          <h6>FINANCE</h6>
-                      </a>
-                  </div>
-              </div>
+        <h4 align="center" style="padding: 20px">DASHBOARD</h4>
+        <div class="card-columns">
+            <div class="card">
+                <div class="card-body" style="background-color:#ffb142">
+                    <a href="/projects" class="card-title" align="center">
+                        <img src="assets/project.png" class="img">
+                    </a>
+                    <a href="/projects" align="center">
+                        <h6>PROJECTS</h6>
+                    </a>
+                </div>
+            </div> 
+            
+            <div class="card">
+                <div class="card-body" style="background-color:#227093;">
+                    <a href="/finance" class="card-title" align="center">
+                        <img src="assets/finance.png" class="img">
+                    </a>
+                    <a href="/finance" align="center">
+                        <h6>FINANCE</h6>
+                    </a>
+                </div>
+            </div>
 
-              <div class="card" style="border: 1px solid #33d9b2;">
-                  <div class="card-body" style="background-color:#33d9b2;">
-                      <a href="/rfqs" class="card-title" align="center">
-                          <img src="assets/quote.png" class="img">
-                      </a>
-                  </div>
-                  <div class="footer">
-                      <a href="/rfqs" align="center">
-                          <h6>RFQs</h6>
-                      </a>
-                  </div>
-              </div>
+            <div class="card">
+                <div class="card-body" style="background-color:#33d9b2;">
+                    <a href="/rfqs" class="card-title" align="center">
+                        <img src="assets/quote.png" class="img">
+                    </a>
+                    <a href="/rfqs" align="center">
+                        <h6>RFQs</h6>
+                    </a>
+                </div>
+            </div>
 
-              <div class="card" style="border: 1px solid #e74c3c;">
-                  <div class="card-body" style="background-color:#e74c3c;">
-                      <a href="/quotes" class="card-title" align="center">
-                          <img src="assets/quote.png" class="img">
-                      </a>
-                  </div>
-                  <div class="footer">
-                      <a href="/quotes" align="center">
-                          <h6>QUOTES</h6>
-                      </a>
-                  </div>
-              </div>
+            <div>
+                <div class="card-body" style="background-color:#e74c3c;">
+                    <a href="/quotes" class="card-title" align="center">
+                        <img src="assets/quote.png" class="img">
+                    </a>
+                    <a href="/quotes" align="center">
+                        <h6>QUOTES</h6>
+                    </a>
+                </div>
+            </div>
 
-              <div class="card" style="border: 1px solid #9b59b6;">
-                  <div class="card-body" style="background-color: #9b59b6;">
-                      <a href="/reports" class="card-title" align="center">
-                          <img src="assets/report.png" class="img">
-                      </a>
-                  </div>
-                  <div class="footer">
-                      <a href="/reports" align="center">
-                          <h6>REPORTS</h6>
-                      </a>
-                  </div>
-              </div>
+            <div class="card">
+                <div class="card-body" style="background-color: #9b59b6;">
+                    <a href="/reports" class="card-title" align="center">
+                        <img src="assets/report.png" class="img">
+                    </a>
+                    <a href="/reports" align="center">
+                        <h6>REPORTS</h6>
+                    </a>
+                </div>
+            </div>
 
-              <div class="card" style="border: 1px solid #227093;">
-                  <div class="card-body" style="background-color:#227093;">
-                      <a href="/admin" class="card-title" align="center">
-                          <img src="assets/admin.png" class="img">
-                      </a>
-                  </div>
-                  <div class="footer">
-                      <a href="/admin" align="center">
-                          <h6>ADMIN</h6>
-                      </a>
-                  </div>
-              </div>
-          </div>
-
-          <h4 align="center" style="padding: 20px">UPDATES</h4>
-          <div class="card" style="border: 1px solid #6DE03F">
-              <p>[23-11-18] Project: New project added.</p>
-              <p>[23-11-18] RFQs: Quote for Builders generated.</p>
-          </div>  
-      </div> 
+            <div class="card">
+                <div class="card-body" style="background-color:#227093;">
+                    <a href="/admin" class="card-title" align="center">
+                        <img src="assets/admin.png" class="img">
+                    </a>
+                    <a href="/admin" align="center">
+                        <h6>ADMIN</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
   </div>
 </div>
